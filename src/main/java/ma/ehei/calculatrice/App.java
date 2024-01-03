@@ -2,6 +2,7 @@ package ma.ehei.calculatrice;
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println(Calculatrice.add(5, 5));
+                Calculatrice cal = mew Calculatrice();
+		System.out.println(cal.multi(5, 5));
 	}
 }
